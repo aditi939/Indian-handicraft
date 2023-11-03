@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        /* Add a CSS rule to remove text decoration */
+        .image-text {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="subnav">
+                <button class="subnavbtn">DINING <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a href="#company">DRINKWARE</a>
+                    <a href="#team">SERVEWARE</a>
+                    <a href="#careers">TABLEWARE</a>
+                </div>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">LIGHTING <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a href="#bring">Lamps</a>
+                    <a href="#deliver">TEA LIGHT & DIFFUSERS</a>
+                    <a href="#package">More Lighting</a>
+                </div>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">DECOR <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a href="#bring">Wall Decor</a>
+                    <a href="#deliver">Dcorative vases</a>
+                    <a href="#package">Desk Accessories</a>
+                </div>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">GARDEN <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a href="#bring">Pots & Planters</a>
+                    <a href="#deliver">Garden Decor</a>
+                    <a href="#package">Hanging</a>
+                </div>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">BEST SELLERS <i class="fa fa-caret-down"></i></button>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">COLLECTIONS <i class="fa fa-caret-down"></i></button>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">MORE <i class="fa fa-caret-down"></i></button>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">DEALS <i class="fa fa-caret-down"></i></button>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">DIWALI STORE <i class="fa fa-caret-down"></i></button>
+            </div>
+            <div class="subnav">
+                <li><a href="#"><img src="images/search.png" height="20px" width="20px"></a></li>
+            </div>
+            <div class="subnav">
+                <li><a href="#"><img src="images/user.png" height="20px" width="20px"></a></li>
+            </div>
+            <div class="subnav">
+                <li><a href="#"><img src="images/heart.png" height="20px" width="20px"></a></li>
+            </div>
+            <div class="subnav">
+                <li><a href="#"><img src="images/shopping-cart.png" height="20px" width="20px"></a></li>
+            </div>
+        </div>
+    </nav>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="column-left">
+                <img src="images/banner1.jpg" alt="banner1" width="750px" height="500px">
+            </div>
+            <div class="column-right">
+                <h2>Pots and Planters</h2>
+                <p>Collection of garden decor planters to bring happy vibes to your garden.</p>
+                <div>
+                    <button class="button-link" type="button">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides fade">
+
+            <div class="column-left">
+                <img src="images/banner5.webp" alt="banner1" width="750px" height="500px">
+            </div>
+            <div class="column-right">
+                <h2>Table Lamps</h2>
+                <p>Discover Radiant Table Lamp Designs, A Perfect Blend of Style and Ambiance. Light Up Your World
+                    Today!</p>
+                <div>
+                    <button class="button-link" type="button">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="column-left">
+                <img src="images/banner2.webp" alt="banner1" width="750px" height="500px">
+            </div>
+            <div class="column-right">
+                <h2>DEAL OF THE WEEK</h2>
+                <p>Avail these aesthetic handcrafted cup set at a discounted price.
+                    Offer valid till end of the week</p>
+                <div>
+                    <button class="button-link" type="button">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="column-left">
+                <img src="images/banner4.jpg" alt="banner1" width="750px" height="500px">
+            </div>
+            <div class="column-right">
+                <h2>Spice Box</h2>
+                <p>Range of Spice Boxes crafted with unique art forms. Where tradition meets taste in every compartment
+                </p>
+                <div>
+                    <button class="button-link" type="button">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <!-- The dots/circles -->
+    <div class="dot-place">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <section>
+        <h1 class="heading2">Handcrafted In India</h1>
+        <h2 class="sub-heading">The Diwali Store</h2>
+        <div class="row" id="grid-container">
+        </div>
+    </section>
+    <section>
+        <h2 class="sub-heading3">Diwali Trending</h2>
+        <div class="row-diwali-trending" id="product-container">
+            <div class="column-diwali-trending">
+                <a href="your-link-url" class="image-container"><img src="images/image1.webp" alt="image1"></a>
+                <div class="top-right">BEST SELLER</div>
+                
+                <a href="#" class="caption">Shubh Labh Pair' Hand-Etched Wall Décor Hanging Set In Brass (392 Grams)</a>
+                <div class="review">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="price"><b>Rs. 1,075</b> (45% Off)<s>Rs. 1,799</s></p>
+                <button class="button-add-to-cart" type="button">+ Add To Cart</button>
+            </div>
+
+            <div class="column-diwali-trending">
+                <a href="your-link-url" class="image-container"><img src="images/image2.webp" alt="image2"></a>
+                <div class="top-right">BEST SELLER</div>
+                <a href="#" class="caption">Carved Peacock' Hand-Etched Decorative Wall Hanging Diya (486 Grams)</a>
+                <div class="review">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="price"><b>Rs. 1,399 </b> (38% Off)<s>Rs. 2,249</s></p>
+                <button class="button-add-to-cart" type="button">+ Add To Cart</button>
+            </div>
+
+            <div class="column-diwali-trending">
+                <a href="your-link-url" class="image-container"><img src="images/image3.webp" alt="image3"></a>
+                <div class="top-right">BEST SELLER</div>
+                <a href="#" class="caption">'Shubh Labh' Hand-Etched Wall Décor Hanging In Brass (344 Grams)</a>
+                <div class="review">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="price"><b>Rs. 999 (37% Off)</b><s>Rs. 1,575</s></p>
+                <button class="button-add-to-cart" type="button">+ Add To Cart</button>
+            </div>
+
+            <div class="column-diwali-trending">
+                <a href="your-link-url" class="image-container"><img src="images/image4.webp" alt="image5"></a>
+                <div class="top-right">BEST SELLER</div>
+                <a href="#" class="caption">Flying Swans' Hand-Etched Decorative Hanging Diya Set (7 Wicks | 341
+                    Grams)</a>
+                    <div class="review">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                <p class="price"><b>Rs. 1,649</b> (36% Off)<s>Rs. 2,575</s></p>
+                <button class="button-add-to-cart" type="button">+ Add To Cart</button>
+            </div>
+
+            <div class="column-diwali-trending">
+                <a href="your-link-url" class="image-container"><img src="images/festive-store.webp" alt="image4"></a>
+                <div class="top-right">BEST SELLER</div>
+                <a href="#" class="caption">Inaayat' Dhoop Dani Brass Incense Burner (Hand-Etched | 5 Inch | 0.6 Kg)</a>
+                <div class="review">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="price"><b>Rs. 1,425 </b>(40% Off)<s>Rs. 2,375</s></p>
+                <button class="button-add-to-cart" type="button">+ Add To Cart</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="sub-heading3">Shop By Category</h2>
+        <div class="row" id="category-row">
+
+        </div>
+    </section>
+    <section>
+        <h2 class="sub-heading3">Trending Now</h2>
+        <div class="row-diwali-trending">
+            <div class="column-diwali-trending">
+                <a href="your-link-url" class="image-container"><img src="images/category3.webp" alt="image1"></a>
+                <div class="top-right">BEST SELLER</div>
+                
+                <a href="#" class="caption">Shubh Labh Pair' Hand-Etched Wall Décor Hanging Set In Brass (392 Grams)</a>
+                <div class="review">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="price"><b>Rs. 1,075</b> (45% Off)<s>Rs. 1,799</s></p>
+                <button class="button-add-to-cart" type="button">+ Add To Cart</button>
+            </div>
+
+            <div class="column-diwali-trending">
+                <a href="your-link-url" class="image-container"><img src="images/category4.webp" alt="image2"></a>
+                <div class="top-right">BEST SELLER</div>
+                <a href="#" class="caption">Carved Peacock' Hand-Etched Decorative Wall Hanging Diya (486 Grams)</a>
+                <div class="review">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="price"><b>Rs. 1,399 </b> (38% Off)<s>Rs. 2,249</s></p>
+                <button class="button-add-to-cart" type="button">+ Add To Cart</button>
+            </div>
+
+            <div class="column-diwali-trending">
+                <a href="your-link-url" class="image-container"><img src="images/fish.webp" alt="image3"></a>
+                <div class="top-right">BEST SELLER</div>
+                <a href="#" class="caption">'Shubh Labh' Hand-Etched Wall Décor Hanging In Brass (344 Grams)</a>
+                <div class="review">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="price"><b>Rs. 999 (37% Off)</b><s>Rs. 1,575</s></p>
+                <button class="button-add-to-cart" type="button">+ Add To Cart</button>
+            </div>
+
+            <div class="column-diwali-trending">
+                <a href="your-link-url" class="image-container"><img src="images/box.webp" alt="image5"></a>
+                <div class="top-right">BEST SELLER</div>
+                <a href="#" class="caption">Flying Swans' Hand-Etched Decorative Hanging Diya Set (7 Wicks | 341
+                    Grams)</a>
+                    <div class="review">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                <p class="price"><b>Rs. 1,649</b> (36% Off)<s>Rs. 2,575</s></p>
+                <button class="button-add-to-cart" type="button">+ Add To Cart</button>
+            </div>
+
+            <div class="column-diwali-trending">
+                <a href="your-link-url" class="image-container"><img src="images/category6.webp" alt="image4"></a>
+                <div class="top-right">BEST SELLER</div>
+                <a href="#" class="caption">Inaayat' Dhoop Dani Brass Incense Burner (Hand-Etched | 5 Inch | 0.6 Kg)</a>
+                <div class="review">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="price"><b>Rs. 1,425 </b>(40% Off)<s>Rs. 2,375</s></p>
+                <button class="button-add-to-cart" type="button">+ Add To Cart</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="sub-heading3">New Collections</h2>
+        <div class="row" id="collection-row"></div>
+        <div class="column">
+                <a href="your-link-url"><img src="images/collection1.webp" class="img-round" alt="Diwali Store"></a>  
+                <a href="#" class="image-text">Table Lamps</a>    
+              </div>
+            
+              <div class="column">
+                <a href="your-link-url"><img src="images/collection2.webp" class="img-round" alt="Festive Decor"></a>
+                <a href="" class="image-text">Wall Decor</a>
+              </div>
+            
+              <div class="column">
+                <a href="your-link-url"><img src="images/pooja-accessories.webp" class="img-round" alt="Pooja Accessories"></a>
+                <a href="" class="image-text1">The Brass Beams</a>
+              </div>
+            
+              <div class="column">
+                <a href="your-link-url"><img src="images/collection4.webp" class="img-round" alt="-Light, Diya and Candle"></a>
+                <a href="" class="image-text2">Showpieces</a>
+              </div>
+            
+              <div class="column">
+                <a href="your-link-url"><img src="images/collection5.webp" class="img-round" alt="Festive Lighting"></a>
+                <a href="" class="image-text">Scented Candles</a>
+              </div>
+            
+              <div class="column">
+                <a href="your-link-url"><img src="images/collection6.webp" class="img-round" alt="Diwali Gifts"></a>
+                <a href="" class="image-text">Ceramic</a>
+              </div>  
+        </div>
+    </section>
+    <section>
+        <h2 class="sub-heading3">Shop By Material</h2>
+        <div class="row" id="material">
+        </div>
+    </section>
+    <section>
+        <div class="row-youtube-section" style="margin-left: 18px;">
+            <div class="column-part1">
+                <a href="https://www.youtube.com/watch?v=FPlHxkbj9Ms" target="_blank"><img src="images/youtube1.webp"
+                        alt="youtube1-image" width="600px" height="340px"></a>
+            </div>
+            <div class="column-part1">
+                <a href="https://www.youtube.com/watch?v=pOila1xq93Y" target="_blank"><img src="images/youtube2.webp"
+                        alt="youtube1-image" width="550px" height="340px"></a>
+            </div>
+        </div>
+        <div class="view-all-link">
+            <a href="">VIEW ALL</a>
+        </div>
+    </section>
+    <section>
+        <div class="row-youtube-section" style="margin-left: 18px;">
+            <div class="column-part1">
+                <img src="images/mission-image.webp" alt="image" width="600px" height="340px">
+            </div>
+            <div class="column-part1">
+                <h1 class="mission-heading"> Our Mission </h1>
+                <p class="mission-subheading">Our mission is to curate beautifully handcrafted products from across the
+                    globe. We preserve the traditional art of India handed down to us by our ancestors, helping our
+                    talented artisans gain global recognition through the products that can be used on a daily basis in
+                    the urban market. Our vision is to be an International Brand synonym to craft. We are well on our
+                    way with a solemn goal to provide economic upliftment of the rural artisans that are involved in
+                    preserving the heritage of the handicrafts industry in India. </p>
+            </div>
+        </div>
+        <div class="row-youtube-section" style="margin-left: 18px;">
+            <div class="column-part1">
+                <h1 class="picture-heading"> Made in India </h1>
+                <p class="mission-subheading">ExclusiveLane is an online craft brand started in 2012 with a vision to
+                    promote Indian handicrafts globally & help small artisans based in different parts of India earn a
+                    living out of it.</p>
+            </div>
+            <div class="column-part1">
+                <img src="images/picture.webp" alt="image" width="600px" height="340px">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="picture-container">
+            <div class="image-zoom">
+                <img src="images/wooden-picture.webp" class="picture-wooden" alt="image">
+            </div>
+            <div class="content">
+                <h1>Become a Retailer or a Wholesale buyer</h1>
+                <p>Get attractive prices on Bulk Orders</p>
+                <div>
+                    <button class="button-link" type="button">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="div-desgin">
+            <p class="heading-div">ExclusiveLane: The Indian Handicraft Catalogue</p>
+            <p class="sub-heading-div">ExclusiveLane is inspired by a generation that is highly connected with its
+                roots. Hence, we have crafted this platform that connects you to the artisans of India and showcases
+                their work by providing you with the best handicraft items online. We aim to make the experience of
+                buying aesthetic and contemporary products online delightful for customers. Also, the core motive is to
+                make sure the handicraft industry in India gets a digital boost. We are here to make purchasing products
+                online convenient for your lifestyle, making life simpler & safer for you.<span
+                    id="dots">...</span><span id="more">Buy Handmade Luxury Home Decor Products Online
+                    Home decor items are not the easiest thing to find as of now. At first, we have to figure out what
+                    goes well with our house design, and then we have to review 100's products that may or may not be
+                    what we're looking for. ExclusiveLane provides a wide home & decor products range designed to suit
+                    all your home interiors. Also, what better way can be to decorate your home than with some
+                    traditional handmade pieces that draw inspiration from the oldest civilisations in the world? So, in
+                    a similar context, you’ll find one-of-a-kind wall décor and room decor items — including motifs,
+                    patterns, and designs — right here. In totality, our unique luxury home décor items, wall decoration
+                    items and room decoration items online are a great way to help others feel at home or, on the
+                    contrary, to create an excellent modern home decor that you want to come home to.
+
+                    So, give your house a vibrant look with the help of ExclusiveLane’s home decoration items such as
+                    wall decor, desk accessories, showpieces & idols, decorative vases and bathing items and make your
+                    intelligent choices from these wide ranges of home decor products available at our online store.
+                    After all, a harmonious blend of functionality and elegance makes these wholesale home decor items
+                    an excellent addition to your home decor.</span></p>
+            <div>
+                <button class="link" type="button" onclick="myFunction()" id="myBtn">LEARN MORE</button>
+            </div>
+        </div>
+    </section>
+    <hr class="hr">
+    <section>
+        <div class="row-footer">
+            <div class="col-footer-left">
+                Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.
+            </div>
+            <div class="col-footer-right">
+                <form action="/action_page.php">
+                    <input type="email" id="email" placeholder="Enter your email" name="email">
+                    <input type="submit" value="Subscribe" class="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="row-footer-menu">
+            <div class="col-footer-menu">
+                About Company
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Reviews</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Coupons</a></li>
+                    <li><a href="">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="col-footer-menu">
+                Customer Service
+                <ul>
+                    <li><a href="">Track Order</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Shipping and Returns</a></li>
+                    <li><a href="">Bulk Orders</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="col-footer-menu">
+                Get in touch
+                <ul>
+                    <div>
+                        <p><a href="#"><img src="images/telephone.png" height="14px" width="14px">&nbsp;8882872008</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <li><a href="#"><img src="images/instagram.png" height="20px" width="20px"></a></li>
+                        <li><a href="#"><img src="images/facebook.png" height="20px" width="20px"></a></li>
+                        <li><a href="#"><img src="images/twitter.png" height="20px" width="20px"></a></li>
+                        <li><a href="#"><img src="images/pinterest.png" height="20px" width="20px"></a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
